@@ -85,3 +85,5 @@ footer { min-height: 100px; padding: 1.7rem clamp(1.25rem, 5vw, 5.5rem); display
 .logo-item:has(img[src$="plotly.svg"]) img { width: 30px; height: 30px; }
 .samsung { letter-spacing: .12em; font-weight: 800; font-size: 1.05rem; }
 .samsung small { letter-spacing: 0; }
+.samsung { letter-spacing: -.03em; font-weight: 800; font-size: 1.25rem; }
+.logo-text.samsung { font-size: 1.1rem; }
