@@ -87,3 +87,7 @@ footer { min-height: 100px; padding: 1.7rem clamp(1.25rem, 5vw, 5.5rem); display
 .samsung small { letter-spacing: 0; }
 .samsung { letter-spacing: -.03em; font-weight: 800; font-size: 1.25rem; }
 .logo-text.samsung { font-size: 1.1rem; }
+@media (max-width: 750px) {
+  .marquee-track { animation-duration: 70s; font-size: clamp(1.4rem, 7vw, 2rem); gap: 1.4rem; padding: 1.2rem 0; }
+  .hero-orbit { animation-duration: 60s; }
+}
