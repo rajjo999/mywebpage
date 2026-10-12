@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -21,7 +21,7 @@
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Raxiom Inc. home">
         <span class="brand-mark">R</span>
-        <span>raxiom<span class="brand-dot">.</span>inc</span>
+        <span>Raxiom<span class="brand-dot">.</span>inc</span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
         <span></span><span></span>
@@ -40,7 +40,7 @@
       <section class="hero">
         <div class="hero-grid"></div>
         <div class="hero-content">
-          <p class="eyebrow reveal">Engineering confidence into every release</p>
+          <p class="eyebrow reveal">$ raxiom --run "engineering confidence into every release"</p>
           <h1 class="reveal">Software that<br /><em>performs</em> under pressure.</h1>
           <p class="hero-copy reveal">
             Raxiom helps ambitious teams build dependable digital products through
@@ -53,18 +53,24 @@
         </div>
         <div class="hero-status reveal">
           <span class="status-dot"></span>
-          Available for select engagements
+          status: available_for_select_engagements
         </div>
-        <div class="hero-orbit" aria-hidden="true">
-          <div class="orbit-core">QA<br />×<br />Cloud</div>
-          <span class="orbit-dot dot-one"></span>
-          <span class="orbit-dot dot-two"></span>
+        <div class="code-window reveal" aria-hidden="true">
+          <div class="code-bar"><i></i><i></i><i></i><span>quality.config.ts</span></div>
+<pre><code><span class="c">// powered by Claude + Copilot</span>
+<span class="k">export const</span> <span class="v">raxiom</span> = {
+  <span class="p">tests</span>: [<span class="s">"playwright"</span>, <span class="s">"cypress"</span>],
+  <span class="p">cloud</span>: [<span class="s">"aws"</span>, <span class="s">"gcp"</span>, <span class="s">"azure"</span>],
+  <span class="p">ai</span>: <span class="s">"human-reviewed"</span>,
+  <span class="p">flaky</span>: <span class="k">false</span>,
+  <span class="p">ship</span>() { <span class="k">return</span> <span class="s">"confidently"</span>; }
+};<span class="caret"></span></code></pre>
         </div>
-        <div class="scroll-note">SCROLL TO DISCOVER <span>↓</span></div>
+        <div class="scroll-note">scroll --down <span>↓</span></div>
       </section>
 
       <section class="trust" aria-label="Companies Ranbir has worked with">
-        <p class="trust-label reveal">Trusted experience at</p>
+        <p class="trust-label reveal">// trusted_experience_at</p>
         <div class="trust-logos reveal">
           <span class="logo-item wordmark samsung">Samsung Ads</span>
           <span class="logo-item"><img src="logos/plotly.svg" alt="" /><b>Plotly</b></span>
@@ -74,7 +80,7 @@
       </section>
 
       <section class="intro section">
-        <p class="section-label reveal">01 / What we do</p>
+        <p class="section-label reveal">// 01_what_we_do</p>
         <div class="intro-layout">
           <h2 class="reveal">Quality is not a gate.<br />It is a <em>growth engine.</em></h2>
           <p class="reveal">
@@ -85,7 +91,7 @@
       </section>
 
       <section id="services" class="services section">
-        <p class="section-label reveal">02 / Services</p>
+        <p class="section-label reveal">// 02_services</p>
         <div class="service-list">
           <article class="service-card reveal">
             <span class="service-number">01</span>
@@ -115,7 +121,7 @@
       </section>
 
       <section id="ai" class="ai section">
-        <p class="section-label reveal">03 / AI-powered testing</p>
+        <p class="section-label reveal">// 03_ai_powered_testing</p>
         <div class="ai-head">
           <h2 class="reveal">Testing, accelerated by <em>AI.</em></h2>
           <p class="reveal">
@@ -133,7 +139,7 @@
 
       <section id="expertise" class="expertise section">
         <div class="expertise-top">
-          <p class="section-label reveal">04 / Toolkit</p>
+          <p class="section-label reveal">// 04_toolkit</p>
           <p class="reveal">Deep technical capability, applied with a pragmatic product mindset.</p>
         </div>
         <div class="marquee" aria-label="Technology expertise">
@@ -152,7 +158,7 @@
       </section>
 
       <section id="experience" class="experience section">
-        <p class="section-label reveal">05 / Experience</p>
+        <p class="section-label reveal">// 05_experience</p>
         <h2 class="exp-title reveal">A decade of shipping<br />quality at <em>scale.</em></h2>
         <div class="timeline">
           <article class="job reveal">
@@ -175,7 +181,7 @@
       </section>
 
       <section id="about" class="about section">
-        <p class="section-label reveal">06 / The person behind Raxiom</p>
+        <p class="section-label reveal">// 06_about_founder</p>
         <div class="about-layout">
           <div class="portrait-wrap reveal">
             <img src="ranbir-singh.png" alt="Ranbir Singh, founder of Raxiom Inc." />
@@ -201,7 +207,7 @@
 
       <section id="contact" class="contact">
         <div class="contact-orb" aria-hidden="true"></div>
-        <p class="section-label reveal">07 / Get in touch</p>
+        <p class="section-label reveal">// 07_contact</p>
         <h2 class="reveal">Let’s make your next<br />release your <em>best one.</em></h2>
         <a class="contact-email reveal" href="mailto:ranbir.pro@gmail.com">ranbir.pro@gmail.com <span>↗</span></a>
         <p class="contact-note reveal">Based in Montreal · Working with teams everywhere</p>
@@ -209,7 +215,7 @@
     </main>
 
     <footer>
-      <a class="brand" href="#top"><span class="brand-mark">R</span><span>raxiom<span class="brand-dot">.</span>inc</span></a>
+      <a class="brand" href="#top"><span class="brand-mark">R</span><span>Raxiom<span class="brand-dot">.</span>inc</span></a>
       <p>© <span id="year"></span> Raxiom Inc. All rights reserved.</p>
       <a href="#top">Back to top ↑</a>
     </footer>
